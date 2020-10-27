@@ -1,2 +1,29 @@
-zxc
-kot
+C# import random
+# l = []
+# for a in range(0, 999):
+#   if a/10 < 1:
+#     print("00%d"% (a))
+#     #l.append(a)
+#   elif a/100 < 1:
+#     #l.append(a)
+#     print("0%d"% (a))
+#   else:
+#     print("%d"% (a))
+#     #l.append(a)
+#     l.append(random.randint(0 , 999))
+# print(l)
+# a = [0,1,2,3,4,5,6]
+# print(sum(a) / len(a))
+import random
+l = []
+for a in range(0, 50):
+  print(a)
+  if a % 2 == 1:
+    print('m')
+  elif a % 3 < 2:
+    print('b')
+  elif a % 4 > 5:
+    print('n')
+  else:
+    print('g')
+print(l)

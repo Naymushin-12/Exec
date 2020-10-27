@@ -3,7 +3,7 @@ s = "1-2 {комнатные|к.|ком.|Комн.} квартиры в {цен�
 l = []
 res = []
 for x in s:
-  if x != '{' and x != '}' and x != '[' and x != ']':
+  if x != '{' and x != '}' and x != '[' and x != ']' and x != ',' and x != '.' :
     l.append(x)
 v = ''.join(l)
 m = v.split(" ")
