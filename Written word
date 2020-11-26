@@ -1,0 +1,4 @@
+word = input('Written word:')
+pig_it = word[1:] + word[0] + "ay"
+# pig = word + "ing"
+print(word, "Your rezult:", pig_it.lower())
