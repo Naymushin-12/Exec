@@ -3,22 +3,38 @@
 <head>
 	<title>Тег STYLE</title>
 	<title>Фон</title>
-<style type="text/css">
+	<title>Курсоры</title>
+	<title>Ссылки</title>	
+ <style type="text/css">
+   .pointerlink { cursor: pointer; }
+    a:visited { text-decoration: none; } 
+   	a:active { text-decoration: none; }
+   	a:hover {
+    text-decoration: underline;
+    color: yellow; 
+   } 
 body {
 	background: url(ВОЛК.jpg) no-repeat;
-	/*background-size:100%;*/
-	/*-webkit-background-size: 100%;*/
+	background-size: 100%;
 }
-h1 {
+p {
 	font-size: 120%;
 	font-family: Arial;	
-	color: #00FFFF;
+	color: #005ff9;
+}
+.center {
+    margin: auto;
+    /*margin-right: auto;*/
+    display: block
 }
 </style>
 </head>
-<body> 
-<h1> clype
-<p> Ryki nogi golova - KVADRAT.
+<body>
+<p><a href="https://streamcraft.net/" class="pointerlink">РУКИ НОГИ ГОЛОВА-КВАДРАТ</a></p>
 </p>
+<div class="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6nP0RZ8fsTY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</div> 
 </body>
 </html>
