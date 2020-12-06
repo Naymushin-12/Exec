@@ -1,1 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Crowndme</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="header_logo" id="home"><p><img src="images/logo.png" alt="logo"></p></div>
+		<nav>
+			<div class="topnav" id="myTopnav">
+				<a class="nav_text"	href="#home"><div class="nav_button">HOME</div></a>
+				<a class="nav_text"	href="#service"><div class="nav_button">SERVICE</div>
+				<a class="nav_text"	href="#pricing_table"><div class="nav_button">PRICING TABLE</div>
+				<a class="nav_text"	href="#howItWork_link"><div class="nav_button">HOW IT WORK</div>
+				<a class="nav_text"	href="#rewiews"><div class="nav_button">HAPPY CLIENTS</div>
+				<a class="nav_text"	href="#contacts"><div class="nav_button">CONTACT US</div>
+			</div>
+				
+		</nav>
+	</header>
+	<div class="main">
+		<div class="boostUpYourBuisnes_page">
+			<div class="bluePart">
+				<h1 class="BUP_text">Boost up your Local business</h1>
+				<p class="BUP_desc_text"> Lorem Ipsum is simply dummy text</p>
+				<div class="inputs_buisnes">
+					<input type="text" class="name"  placeholder="Full Name">
+					<input type="text" class="email" placeholder="Email Adress">
+					<input type="text" class="phone" placeholder="Phone Number">	
+					<a href="#"><div class="button_request">REQUEST A QUOTE</div></a> 	
+				</div>
+				<img class="mac" 	src="images/mac.png" alt="mac">
+				<div class="whitePart"></div>
+			</div>	
+		</div>
+		<div class="our_services" id="service">
+			<p class="our_services_header" >OUR SERVICES</p>
+			<p class="services_desc">Lorem Ipsum is simply dummy Business industry.</p>
+				<div class="service_images">
+					<img class="service_image" src="images/Service_1.png" alt="Font-awesome icons">
+					<img class="service_image" src="images/Service_2.png" alt="Workicg contact form">
+					<img class="service_image" src="images/Service_3.png" alt="Friendly code">
+					<img class="service_image" src="images/Service_4.png" alt="Fully responsive design">
+					<img class="service_image" src="images/Service_5.png" alt="Retina ready icons here">
+					<img class="service_image" src="images/Service_6.png" alt="Flat trendly landing page design">
+				</div>
+		</div>
+			<div class="about_us">
+				<img src="images/about_us_img.png" alt="*table*" class="about_us_img">
+					<div class="about_us_right_side">
+						<p class="about_us_text">ABOUT US</p>
+						<p class="about_us_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget semper urna, non vulputate sapien. Pellentesque ante ante, iaculis id eros eu, consequat consequat nibh. Cras pulvinar pharetra maximus. Suspendisse varius, purus at sollicitudin volutpat, nunc nisi aliquam nisi, sit amet bibendum nulla sapien sed eros. Nullam sit amet turpis quis leo tempus bibendum vitae ac ligula. Nullam vitae lectus at est sagittis porta. Nulla quis lacus eu lorem tincidunt sollicitudin. Pellentesque tortor enim, finibus vitae rhoncus eu, rhoncus ac metus. Proin posuere risus vel sapien mattis accumsan.</p>	
+ 						<a href="#" ><div class="read_more_btn">READ MORE</div></a>
+					</div>
+			</div>
+	
+		<div class="choose_your_price" id="pricing_table">
+			<div class="choose_your_price_text_area">
+				<p class="choose_your_price_text">CHOOSE YOUR PRICE</p>
+				<p class="choose_your_price_desc">Nullam condimentum sem metus, eget sagittis nisl posuere elementum. </p>
+			</div>
+			
+			<div class="plans">
+			<div class="wrapper">
+				<div class="basic_plan">
+					<p class="basic_plan_header">BASIC PLAN</p>
+					<p class="price"><sup>$</sup>22</p>
+					<p class="per_mount">PER MOUNT</p>
+					<div class="line"></div>
+					<p class="account">1 ACCOUNT</p>
+					<div class="line"></div>
+					<p class="storage">50GB STORAGE</p>
+					<div class="line"></div>
+					<p class="cloud_services">CUSTOM CLOUD SERVICES</p>
+					<a href="#"><div class="get_started">GET STARTED</div></a>
+				</div>
+				
+				<div class="premium_plan">
+					<p class="premium_plan_header">PREMIUM PLAN</p>
+					<p class="price"><sup>$</sup>42</p>
+					<p class="per_mount">PER MOUNT</p>
+					<div class="line"></div>
+					<p class="account">2 ACCOUNT</p>
+					<div class="line"></div>
+					<p class="storage">100GB STORAGE</p>
+					<div class="line"></div>
+					<p class="cloud_services">CUSTOM CLOUD SERVICES</p>
+					<a href="#"><div class="get_started">GET STARTED</div></a>
+					
+				</div>
 
+				<div class="gold_plan">
+					<p class="gold_plan_header">GOLD PLAN</p>
+					<p class="price"><sup>$</sup>62</p>
+					<p class="per_mount">PER MOUNT</p>
+					<div class="line"></div>
+					<p class="account">8 ACCOUNT</p>
+					<div class="line"></div>
+					<p class="storage">1000GB STORAGE</p>
+					<div class="line"></div>
+					<p class="cloud_services">CUSTOM CLOUD SERVICES</p>
+					<a href="#"><div class="get_started">GET STARTED</div></a>
+
+				</div>
+			</div>	
+			</div>
+		</div>
+		<div class="HowItWorks" id="howItWork_link">
+			<p class="howItWorks_text">HOW IT WORKS</p>
+			<p class="hotItWorks_desc">Vestibulum risus elit, porttitor in ipsum sit amet, congue imperdiet ligula.</p>
+			<div class="StepsAndArrows"><img  src="images/StepsAndArrows.png" alt="StepsAndArrows"></div>
+			<div class="button_get_start_now">
+				<a href="#"><div class="get_start_now">GET START NOW</div></a>
+			</div>
+		</div>
+		<div class="happy_clients_page" id="rewiews">
+			<p class="happy_clients_text">HAPPY CLIENTS</p>
+			<p class="Happy_clients_desc">We are explain who is using our business solution</p>
+			<div class="rewiews_page">
+				<div class="rewiews">
+					<img class="rewiew" src="images/rewiew1.png" alt="rewiew1">
+					<img class="rewiew" src="images/rewiew2.png" alt="rewiew2">
+					<img class="rewiew" src="images/rewiew3.png" alt="rewiew3">
+					<img class="rewiew" src="images/rewiew4.png" alt="rewiew4">
+				</div>
+			</div>
+		</div>
+		<div class="newsletter_page">
+			<p class="newsletter_text">NEWSLETTER</p>
+			<p class="newsletter_desc">Et harum quidem...</p>
+			<div class="input_newsletter">
+				<input type="text" id="newsletter_input" class="name"  placeholder="Full Name">
+				<input type="text" id="newsletter_input" class="email" placeholder="Email Adress">
+				<a href="#"><div class="button_request">SUBSCRIBE NOW</div></a> 	
+			</div>
+			
+		</div>
+		<div class="our_adress" id="contacts">
+			<div class="map"><img src="images/Map.png" alt="map"></div>
+		</div>	
+		<nav>
+			<div class="bottomnav" id="myBottomnav">
+				<a class="nav_text"	href="#home"><div class="nav_button">HOME</div></a>
+				<a class="nav_text"	href="#service"><div class="nav_button">SERVICE</div>
+				<a class="nav_text"	href="#pricing_table"><div class="nav_button">PRICING TABLE</div>
+				<a class="nav_text"	href="#howItWork_link"><div class="nav_button">HOW IT WORK</div>
+				<a class="nav_text"	href="#rewiews"><div class="nav_button">HAPPY CLIENTS</div>
+				<a class="nav_text"	href="#contacts"><div class="nav_button">CONTACT US</div>
+			</div>
+		</nav>	
+		<div class="contact_info">
+			<div class="ph_num_area">
+				<img src="images/phone.png" alt="phone" class="phone_img">
+				<p class="phone_number">+989 9976 999</p>
+			</div>
+				<div class="bottom_images">
+					<a href="http://facebook.com" target="_blank" class="img_bottomNav"><img src="images/facebook.png" alt="fb"></a>	
+					<a href="http://twitter.com" target="_blank" class="img_bottomNav"><img src="images/twitter.png" alt="twitter"></a>	
+					<a href="http://LinkedIn.com" target="_blank" class="img_bottomNav"><img src="images/in.png" alt="in"></a>	
+				</div>
+		</div>
+		<div class="copyright">
+			<p class="copyright_text">All contents © copyright 2014 Business Theme. All rights reservved.Designed by: akhilwebfolio.</p>
+		</div>
+	</div>	
+	
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+	
+</body>
+</html>
